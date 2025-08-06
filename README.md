@@ -14,6 +14,8 @@ Install dependencies:
 
 ```bash
 pip install ollama
+
+ollama pull <model>
 ```
 
 ## Usage
