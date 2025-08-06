@@ -1,12 +1,16 @@
 from ollama import chat
 from ollama import ChatResponse
 
+content = input("Enter your prompt...\n")
+
+print('finding answer...')
+
 response: ChatResponse = chat(model='gemma3:1b', messages=[
   {
     'role': 'user',
-    'content': 'Why is the sky blue?',
+    'content': content,
   },
 ])
-print(response['message']['content'])
+
 # or access fields directly from the response object
 print(response.message.content)
