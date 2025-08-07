@@ -4,7 +4,7 @@ This project demonstrates how to interact with the [Ollama](https://ollama.com/)
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.8+
 - [Ollama installed and running locally](https://ollama.com/download)
